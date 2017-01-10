@@ -21,5 +21,12 @@ Wire the signal of the horizontal servo to Pin 13 (GPIO 27).
 
 I used an external energy source and wired the black to minus and red to plus, providing both servos with 6Volt.
 
+----------------------------------------------------------------------------
+
+server.py and client.py are intendet to be used for remote control using sockets and pygame for simple keystroke input.
+therefore run the server.py on your rpi and the client.py on the control-computing unit. You will be asked which IP to use,
+the programm will by default use port 4242.
+please keep in mind, that this is still a work in progress and by no means a professional work.
+
 
 Made by Piet.
