@@ -50,7 +50,7 @@ camkeys=[False,False,False,False]
 main_loop = 1
 
 while main_loop:
-	pygame.display.set_caption("upSTREAM Camera control")
+	pygame.display.set_caption("Sadistic-Dual-Servo-Control")
 	screen.fill(0)
 
 	if camkeys[0] == True:
